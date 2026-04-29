@@ -3,7 +3,7 @@
  * Falls back to basic fetch + title extraction if Jina fails.
  */
 export async function fetchMarkdown(url) {
-  const jinaUrl = `https://r.jina.ai/http://${url.replace(/^https?:\/\//, "")}`;
+  const jinaUrl = `https://r.jina.ai/${url}`;
 
   try {
     const res = await fetch(jinaUrl, {
