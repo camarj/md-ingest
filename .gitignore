@@ -1,0 +1,7 @@
+node_modules/
+.env
+*.md
+!README.md
+!LICENSE.md
+dist/
+.DS_Store

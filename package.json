@@ -1,0 +1,32 @@
+{
+  "name": "md-ingest",
+  "version": "1.0.0",
+  "description": "CLI to ingest any URL into structured Markdown with YAML frontmatter",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "md-ingest": "./bin/md-ingest.js"
+  },
+  "scripts": {
+    "start": "node bin/md-ingest.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "markdown",
+    "cli",
+    "scraper",
+    "ingest",
+    "knowledge-base",
+    "obsidian",
+    "frontmatter"
+  ],
+  "author": "Raúl Camacho <raul@inteliside.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "js-yaml": "^4.1.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
