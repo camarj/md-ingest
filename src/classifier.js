@@ -13,7 +13,7 @@ Tareas:
 Responde SOLO JSON válido con este schema, sin markdown ni code fences:
 {"category": "ai|software-dev|product|finance|business|other", "summary": "resumen en español", "tags": ["tag-1", "tag-2"]}
 
-NO envuelvas la respuesta en bloques \\`\\`\\`json ni comentarios. Solo el JSON crudo.`;
+NO envuelvas la respuesta en bloques de codigo markdown ni comentarios. Solo el JSON crudo.`;
 
 export async function classifyContent(text, model = "claude-haiku-4-5-20251001") {
   const apiKey = process.env.ANTHROPIC_API_KEY;
